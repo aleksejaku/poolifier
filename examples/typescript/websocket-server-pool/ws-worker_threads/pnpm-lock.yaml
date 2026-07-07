@@ -9,16 +9,16 @@ dependencies:
     specifier: ^2.7.5
     version: 2.7.5
   ws:
-    specifier: ^8.14.2
-    version: 8.14.2(bufferutil@4.0.7)(utf-8-validate@6.0.3)
+    specifier: ^8.21.0
+    version: 8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6)
 
 optionalDependencies:
   bufferutil:
     specifier: ^4.0.7
-    version: 4.0.7
+    version: 4.1.0
   utf-8-validate:
     specifier: ^6.0.3
-    version: 6.0.3
+    version: 6.0.6
 
 devDependencies:
   '@types/node':
@@ -43,8 +43,8 @@ packages:
       '@types/node': 20.8.2
     dev: true
 
-  /bufferutil@4.0.7:
-    resolution: {integrity: sha512-kukuqc39WOHtdxtw4UScxF/WVnMFVSQVKhtx3AjZJzhd0RGZZldcrfSEbVsWWe6KNH253574cq5F+wpv0G9pJw==}
+  /bufferutil@4.1.0:
+    resolution: {integrity: sha512-ZMANVnAixE6AWWnPzlW2KpUrxhm9woycYvPOo67jWHyFowASTEd9s+QN1EIMsSDtwhIxN4sWE1jotpuDUIgyIw==}
     engines: {node: '>=6.14.2'}
     requiresBuild: true
     dependencies:
@@ -69,16 +69,16 @@ packages:
     hasBin: true
     dev: true
 
-  /utf-8-validate@6.0.3:
-    resolution: {integrity: sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==}
+  /utf-8-validate@6.0.6:
+    resolution: {integrity: sha512-q3l3P9UtEEiAHcsgsqTgf9PPjctrDWoIXW3NpOHFdRDbLvu4DLIcxHangJ4RLrWkBcKjmcs/6NkerI8T/rE4LA==}
     engines: {node: '>=6.14.2'}
     requiresBuild: true
     dependencies:
       node-gyp-build: 4.6.1
     dev: false
 
-  /ws@8.14.2(bufferutil@4.0.7)(utf-8-validate@6.0.3):
-    resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
+  /ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@6.0.6):
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -89,6 +89,6 @@ packages:
       utf-8-validate:
         optional: true
     dependencies:
-      bufferutil: 4.0.7
-      utf-8-validate: 6.0.3
+      bufferutil: 4.1.0
+      utf-8-validate: 6.0.6
     dev: false
